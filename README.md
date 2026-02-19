@@ -17,6 +17,7 @@ Fraudulent account creation impacts onboarding quality, trust, and downstream fi
 - Risk scoring model with tier-based actions
 - Deterministic GenAI-style rule suggestion module
 - End-to-end pipeline producing scored outputs and summary metrics
+- Streamlit dashboard for recruiter-friendly interactive exploration
 
 ## Project Structure
 - `src/risk_pattern_analysis/feature_engineering.py`: builds risk features from signup events
@@ -24,6 +25,7 @@ Fraudulent account creation impacts onboarding quality, trust, and downstream fi
 - `src/risk_pattern_analysis/rule_generator.py`: candidate-rule generation from risky patterns
 - `src/risk_pattern_analysis/pipeline.py`: orchestrates full analysis pipeline
 - `src/risk_pattern_analysis/cli.py`: command-line entrypoint
+- `app.py`: Streamlit dashboard UI
 - `data/sample_signups.csv`: sample dataset for demonstration
 - `outputs/`: generated artifacts after execution
 - `docs/portfolio-version.md`: recruiter/interview narrative
@@ -54,6 +56,17 @@ Alternative command:
 PYTHONPATH=src python3 -m risk_pattern_analysis.cli \
   --input data/sample_signups.csv \
   --output outputs
+```
+
+## Launch Dashboard
+Install dependencies:
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+Run Streamlit app:
+```bash
+streamlit run app.py
 ```
 
 ## Generated Outputs
