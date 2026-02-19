@@ -4,6 +4,8 @@
 **Type:** Independent Project  
 **Focus Area:** Fraud Prevention, Risk Analytics, GenAI-Assisted Decisioning
 
+![Risk Pattern Analysis Framework](assets/risk-pattern-framework.svg)
+
 ## Executive Summary
 This project demonstrates how GenAI can support fraud prevention by accelerating the conversion of behavioral abuse patterns into deployable risk controls. The work is centered on fraudulent account creation, where attackers adapt quickly and static rules become outdated.
 

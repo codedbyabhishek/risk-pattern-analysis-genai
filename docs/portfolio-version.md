@@ -6,6 +6,8 @@
 **Duration:** Nov 2025 - Feb 2026  
 **Domain:** Fraud Prevention, Risk Analytics, GenAI-Assisted Rule Design
 
+![Risk Pattern Analysis Framework](../assets/risk-pattern-framework.svg)
+
 ## Challenge
 Fraudulent account creation is one of the earliest and most damaging abuse vectors in digital products. Attackers continuously change behavior, making static detection rules less effective over time. The core challenge was to design a practical, repeatable system that could:
 - Detect suspicious account creation attempts earlier.
