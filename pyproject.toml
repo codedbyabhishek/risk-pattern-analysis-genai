@@ -1,0 +1,15 @@
+[project]
+name = "risk-pattern-analysis-genai"
+version = "0.1.0"
+description = "Fraud account creation risk analysis pipeline with GenAI-style rule suggestions"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Abhishek Kumar" }
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
